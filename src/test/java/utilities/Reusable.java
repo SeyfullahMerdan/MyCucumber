@@ -18,7 +18,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.function.Function;
 
-public class ReusableMethods {
+public class Reusable {
 
 
     public static @NotNull String getScreenshot(String name) throws IOException {
