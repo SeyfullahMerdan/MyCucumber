@@ -1,5 +1,5 @@
 
- Feature: 001_Exercise1
+ Feature: 001_Exercise
 
    @smoke
    Scenario Outline: bei Google ein Produkt Recherchieren

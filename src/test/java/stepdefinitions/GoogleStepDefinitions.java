@@ -18,7 +18,7 @@ public class GoogleStepDefinitions {
     public void der_benutzer_geht_zur_seite(String string) {
         Driver.getDriver().get(ConfigReader.getProperty(string));
         Reusable.waitFor(3);
-        googlePage.cookie.click();
+      //  googlePage.cookie.click();
     }
 
 
