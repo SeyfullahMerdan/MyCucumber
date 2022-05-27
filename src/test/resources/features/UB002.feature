@@ -11,4 +11,4 @@ Feature: 002_Exercise
 
     Examples:
       | section |
-      | Computers & Accessories  |
+      | computers |

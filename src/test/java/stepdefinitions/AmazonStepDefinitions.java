@@ -40,8 +40,24 @@ public class AmazonStepDefinitions {
     @Then("der Benutzer klickt Computers & Accessories")
     public void derBenutzerKlicktComputersAccessories() {
 
+        actions=new Actions(Driver.getDriver());
+        actions.moveToElement(amazonPage.computersAccessories).click().perform();
+
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }

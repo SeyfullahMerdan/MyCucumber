@@ -19,8 +19,8 @@ public class AmazonPage {
     @FindBy (xpath = "//a[@data-menu-id='5']")
     public WebElement electronics;
 
-    @FindBy (linkText = "href=\"/s?bbn=16225009011&rh=i%3Aspecialty-aps%2Cn%3A%2116225009011%2Cn%3A541966&ref_=nav_em__nav_desktop_sa_intl_computers_and_accessories_0_2_5_6\"")
-    public WebElement computer;
+    @FindBy ( xpath = "//*[@id=\"hmenu-content\"]/ul[5]/li[7]/a" )
+    public WebElement computersAccessories;
 
 
 
