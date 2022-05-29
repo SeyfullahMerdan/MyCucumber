@@ -1,7 +1,7 @@
 
  Feature: 001_Exercise
 
-   @smoke
+   @rr
    Scenario Outline: bei Google ein Produkt Recherchieren
 
      Given der Benutzer geht zur Seite "GoogleUrl"

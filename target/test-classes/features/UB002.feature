@@ -1,5 +1,6 @@
 Feature: 002_Exercise
 
+  @rr
   Scenario Outline: bei Amazon ein Produkt wählen
 
     Given der Benutzer geht zur Seite "AmazonUrl"
